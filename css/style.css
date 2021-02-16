@@ -538,7 +538,9 @@ address {
 }
 /* __________________overlay card */
 .project-cards a:hover .image-container::before,
-.project-cards a:hover .overlay-block {
+.project-cards a:hover .overlay-block,
+.project-cards a:focus .image-container::before,
+.project-cards a:focus .overlay-block {
   transform: translateY(0);
 }
 .image-container {
